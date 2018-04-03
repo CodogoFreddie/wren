@@ -157,7 +157,8 @@ pre {
   margin: 10px 0;
   line-height: 20px;
   padding: 10px;
-  overflow: auto; }
+  overflow: auto;
+  white-space: pre-wrap; }
 
 footer {
   margin-top: 40px;
@@ -178,7 +179,7 @@ footer {
 
 .codehilite pre span.c1, .codehilite pre span.cm {
   color: #94a1ad; }
-.codehilite pre span.k, .codehilite pre span.kd, .codehilite pre span.kc, .codehilite pre span.nb {
+.codehilite pre span.k, .codehilite pre span.kd, .codehilite pre span.kc, .codehilite pre span.kt, .codehilite pre span.nb {
   color: #269dd9; }
 .codehilite pre span.vg {
   color: #1b9898; }
@@ -186,6 +187,8 @@ footer {
   color: #59a112; }
 .codehilite pre span.vc {
   color: #29a33d; }
+.codehilite pre span.nf {
+  color: #29a3a3; }
 .codehilite pre span.m, .codehilite pre span.mi, .codehilite pre span.mf {
   color: #80b34d; }
 .codehilite pre span.s, .codehilite pre span.s2 {
@@ -350,5 +353,3 @@ table.precedence td {
 
   footer {
     padding: 20px 20px 40px 20px; } }
-
-/*# sourceMappingURL=style.css.map */
